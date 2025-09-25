@@ -1,0 +1,21 @@
+{
+  "name": "datacom-coding-assessment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --project=chromium",
+    "test-ui": "npx playwright test --project=chromium --ui",
+    "test-headed": "npx playwright test --project=chromium --headed",
+    "test-firefox": "npx playwright test --project=firefox",
+    "test-webkit": "npx playwright test --project=webkit",
+    "test-all-browser": "npx playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.5.2"
+  }
+}

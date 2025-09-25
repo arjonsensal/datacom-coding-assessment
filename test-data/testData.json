@@ -1,0 +1,47 @@
+{
+  "expectedFields": [
+    {
+      "fieldName": "firstName",
+      "fieldLabel": "First Name",
+      "expectedType": "text"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldLabel": "Last Name",
+      "expectedType": "text"
+    },
+    {
+      "fieldName": "phoneNumber",
+      "fieldLabel": "Phone Number",
+      "expectedType": "tel"
+    },
+    {
+      "fieldName": "country",
+      "fieldLabel": "Country",
+      "expectedType": "select"
+    },
+    {
+      "fieldName": "email",
+      "fieldLabel": "Email address",
+      "expectedType": "email"
+    },
+    {
+      "fieldName": "password",
+      "fieldLabel": "Password",
+      "expectedType": "password"
+    },
+    {
+      "fieldName": "termsAndConditionCheckbox",
+      "fieldLabel": "I agree with the terms and conditions",
+      "expectedType": "checkbox"
+    }
+  ],
+  "formData": {
+      "firstName": "Arjon",
+      "lastName": "Sensal",
+      "phoneNumber": "1234567890",
+      "country": "United States of America",
+      "email": "arjonsensal@gmail.com",
+      "password": "arjonsensal1"
+    }
+}
