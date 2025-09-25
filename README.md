@@ -72,6 +72,8 @@ npm run test-webkit
 npm run test-all-browsers
 ```
 
+### After running, the built-in HTML reporter should appear with the test results.
+
 ## 🙋‍♂️ Author
 
 [Jose Arjon Sensal](https://www.linkedin.com/in/arjon-sensal-3b9507168)
