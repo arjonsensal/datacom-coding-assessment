@@ -1,5 +1,7 @@
 # Playwright Framework using Typescript
 
+### This repository provides a comprehensive and flexible framework for testing a website [QA Practice/Spot the bugs](https://qa-practice.netlify.app/bugs-form) using Playwright and Typescript. This solution, built upon Playwright's integrated test runner and reporter, features cross-browser support, and a robust data-driven approach.
+
 ## 📌 Project Description
 The tests included in this repository are identified by manually testing the website [QA Practice/Spot the bugs](https://qa-practice.netlify.app/bugs-form) and understanding what and how it will be automated.
 ### Lists of bugs found:
@@ -25,6 +27,11 @@ The tests included in this repository are identified by manually testing the web
 * Validate submit with valid inputs
 * validate submit with invalid inputs 
   * will check for required fields  
+
+### Automated Tests in the file (spot-the-bugs-test.spec.ts)
+* Validate all fields are present and can be interacted with - Will validate all fields by verifying visibility, filling up fields - verify if interactable, veriying type is correct for a field, and verifying the label text
+* Validate required fields show error messages when left empty - Will validate the required fields functionality for certain required fields(fields with *)
+* Validate successful form submission with valid data - Will validate the banner message/color and result fields when successfully submitted the form
 
 
 ## 🛠️ Framework and Dependencies
